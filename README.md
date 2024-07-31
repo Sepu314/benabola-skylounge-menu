@@ -1,0 +1,1 @@
+Traspasar a visual
