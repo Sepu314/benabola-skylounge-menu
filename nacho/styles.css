@@ -125,14 +125,14 @@ h3 {
     border: 1px solid #ddd;
 }
 
-.requested {
-    border: 1px solid #9c6d01;
-    box-shadow: -3px 3px 8px #9c6d01;
-}
-
 .drink p {
     color: #555555;
     font-size: 20px;
+}
+
+.requested {
+    border: 1px solid #9c6d01;
+    box-shadow: -3px 3px 8px #9c6d01;
 }
 
 .image {
@@ -158,6 +158,10 @@ h3 {
     padding: 5px;
 }
 
+.rounded {
+    border-radius: 2%;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -168,8 +172,4 @@ footer {
     bottom: 0;
     width: 100%;
     height: 100px;
-}
-
-.rounded {
-    border-radius: 2%;
 }
