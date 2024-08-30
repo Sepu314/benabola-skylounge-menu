@@ -173,3 +173,51 @@ footer {
     width: 100%;
     height: 100px;
 }
+
+/* RESPONSIVE TABLET */
+
+@media screen and (max-width: 1400px) {
+    body {
+        background-color: #f8f3e8;
+    }
+
+    .menu {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .drinks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 947px) {
+    .menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .drinks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* RESPONSIVE MOBILE SMALL */
+
+@media screen and (max-width: 540px) {
+    .menu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .drinks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content {
+        text-align: right;
+    }
+
+    .content li {
+        justify-content: right;
+    }
+}
